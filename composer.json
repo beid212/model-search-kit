@@ -1,6 +1,6 @@
 {
     "name": "beid212/model-search-kit",
-    "type": "project",
+    "type": "laravel-package",
     "minimum-stability": "stable",
     "description": "A Package for creating sorting and filtering classes.",
     "license": "MIT",
