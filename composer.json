@@ -1,0 +1,29 @@
+{
+    "name": "beid212/model-search-kit",
+    "type": "project",
+    "minimum-stability": "stable",
+    "description": "A Package for creating sorting and filtering classes.",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^11.0"
+    },
+    "authors": [
+        {
+            "name": "beid212",
+            "homepage": "https://github.com/beid212"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Beid212\\ModelSearchKit\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beid212\\ModelSearchKit\\Providers\\ModelSearchKitServiceProvider"
+            ]
+        }
+    }
+}
